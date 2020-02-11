@@ -60,5 +60,7 @@ The kernel is the single most important part of the operating system.
 ## Disk I/O
 
 # Building an Operating System
+- Computer needs to boot to a section of storage.
 - Boot instructions need to be available on the boot sector of storage for a boot loader to load.
+  - This is known as the boot record.
 - Boot loader is in charge of loading the first initial start up instructions into ram. 
