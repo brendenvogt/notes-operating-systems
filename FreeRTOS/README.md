@@ -103,6 +103,8 @@ typedef struct {
     } def;                      // event definition
 } osEvent;
 ```
+- `osEventName.value.v` if the value is 32Bit message(or 8 or 16bit)
+- `osEventName.value.p` if the 
 
 #### Delete the Queue
 ``` cpp
